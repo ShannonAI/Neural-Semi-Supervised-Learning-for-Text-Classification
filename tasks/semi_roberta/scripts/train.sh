@@ -1,0 +1,11 @@
+python trainer.py \
+--mode train_student \
+--roberta_path [PRETRAIN_ROBERTA_PATH] \
+--imdb_data_path [IMDB_DATA_PATH]/bin \
+--student_data_path [STUDENT_DATA_PATH]/bin \
+--save_path [ROOT_SAVE_PATH] \
+--batch_size=10 \
+--precision 16 \
+--lr=1.4e-5 \
+--gpus=0,1,2,3,4,5,6,7, \
+--accumulate_grad_batches=20
