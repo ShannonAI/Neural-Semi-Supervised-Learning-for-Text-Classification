@@ -1,5 +1,5 @@
-# Semi-supervised-Learning-for-Sentiment-Analysis
-Code for《Semi-supervised Learning for Sentiment Analysis》.
+# Neural-Semi-supervised-Learning-for-Text-Classification
+Code and Data for《Neural-Semi-supervised-Learning-for-Text-Classification》.
 
 ## Download model and data
 Data and Models can be found in follwing list. Download the corresponding files according to your needs
