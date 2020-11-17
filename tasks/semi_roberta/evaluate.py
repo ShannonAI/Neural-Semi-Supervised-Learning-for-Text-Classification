@@ -32,7 +32,8 @@ class RobertaClassificationModel(LightningModule):
         self.model = RobertaForSequenceClassification.from_pretrained(self.args.roberta_path)
         self.loss_fn = CrossEntropyLoss()
         self.metric = Accuracy(num_classes=2)
-        self.num_gpus = len(str(self.args.gpus).split(","))
+        gpus_string = self.args.gpus if not self.args.gpus.endswith(',') else self.args.gpus[:-1]
+        self.num_gpus = len(gpus_string.split(","))
 
     def forward(self, inputs_ids):
         y_hat = self.model(inputs_ids)
