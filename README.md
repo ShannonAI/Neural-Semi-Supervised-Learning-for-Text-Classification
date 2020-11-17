@@ -1,5 +1,5 @@
 # Neural-Semi-supervised-Learning-for-Text-Classification-Under-Large-Scale-Pretraining
-Code and Data for《Neural Semi-supervised Learning for Text Classification Under Large-Scale Pretraining》.
+Code, models and Datasets for《Neural Semi-supervised Learning for Text Classification Under Large-Scale Pretraining》.
 
 ## Download model and data
 Data and Models can be found in follwing list. Download the corresponding files according to your needs
