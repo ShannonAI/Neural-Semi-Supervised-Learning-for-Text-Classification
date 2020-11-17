@@ -37,7 +37,7 @@ You can download [HERE](https://drive.google.com/drive/folders/1eiwS-0620S4H3yZU
 Use the roberta model we pretrained over 3.4M reviews data to train teacher model.  
 Our teacher model had an accuracy rate of 96.2% on the test set.
 ```bash
-cd sstc/tasks/roberta_lm
+cd sstc/tasks/semi-roberta
 python trainer.py \
 --mode train_teacher \
 roberta_path [PRETRAIN_MODELS]\semi-roberta-large \
