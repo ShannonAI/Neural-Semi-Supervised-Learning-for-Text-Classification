@@ -192,5 +192,5 @@ python trainer.py \
 --accumulate_grad_batches=50
 ```
 After training, student model checkpoint will be save in `[ROOT_SAVE_PATH]/train_student_checkpoint`. 
-The student model we trained had an accuracy rate of 96.8% on the test set.
+The student model we trained had an accuracy rate of 96.6% on the test set.
 The download link of student model checkpoint can be found in Quick tour part.
