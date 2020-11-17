@@ -23,7 +23,7 @@ You can download [HERE](https://drive.google.com/drive/folders/1zShIK9n3HCZRjfE6
 - Download shannon_preprocssor.whl to install a binarize tool. Save the .whl file at `[SHANNON_PREPROCESS_WHL_PATH]`.
 You can download [HERE](https://drive.google.com/file/d/1wjH7hdSRL_QQj0OouBsN_O8Ng6m8bQiN/view?usp=sharing)
 - Download the teacher model and student model that we trained. Save them at `[CHECKPOINTS]`.
-You can download [HERE]()
+You can download [HERE](https://drive.google.com/drive/folders/1eiwS-0620S4H3yZUlrjvNAeze8JWWVu6?usp=sharing)
     - `roberta-base`: teacher and student model checkpoint for roberta-base 
     - `roberta-large`: teacher and student model checkpoint for roberta-large 
 
