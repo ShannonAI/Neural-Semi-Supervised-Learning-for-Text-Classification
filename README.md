@@ -1,8 +1,8 @@
 # Neural-Semi-supervised-Learning-for-Text-Classification-Under-Large-Scale-Pretraining
-Code, models and Datasets for《Neural Semi-supervised Learning for Text Classification Under Large-Scale Pretraining》.
+Code, models and Datasets for[《Neural Semi-supervised Learning for Text Classification Under Large-Scale Pretraining》](https://arxiv.org/pdf/2011.08626.pdf).
 
 ## Download Models and Dataset
-Dataset and Models are found in the follwing list.
+Datasets and Models are found in the follwing list.
 
 - Download 3.4M IMDB movie reviews. Save the data at `[REVIEWS_PATH]`.
 You can download the dataset [HERE](https://drive.google.com/drive/folders/1YX-CzocJe32DK8j2RBVyhYhxrbgE1l1S?usp=sharing).  
